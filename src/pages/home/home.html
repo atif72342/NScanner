@@ -1,14 +1,12 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content scroll="false">
+    <div class="splash-bg"></div>
+    <div class="splash-info">
+        <div class="splash-logo"></div>
+        <div class="splash-intro">
+            NScanner
+        </div>
+    </div>
+    <div padding>
+        <button ion-button block (tap)="goToLoginPage()" class="login">LOGIN</button>
+    </div>
 </ion-content>

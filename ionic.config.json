@@ -1,5 +1,8 @@
 {
-  "name": "NScanner",
-  "app_id": "",
-  "type": "ionic-angular"
+    "name": "NScanner",
+    "app_id": "521d59af",
+    "type": "ionic-angular",
+    "integrations": {
+        "cordova": {}
+    }
 }
